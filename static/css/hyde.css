@@ -73,6 +73,7 @@ html {
 /* Sidebar links */
 .sidebar a {
   color: #fff;
+  text-decoration: none;
 }
 
 /* About section */
@@ -90,9 +91,9 @@ html {
 
 .sidebar-about .profile-picture {
   margin: 0 auto;
-  border-radius: 50%;
-  border: 2px solid #0001;
-  max-width: 5rem;
+ /* border-radius: 50%;
+  border: 2px solid #0001; */
+  max-width: 4rem;
 }
 
 /* Sidebar nav */
@@ -145,8 +146,8 @@ a.sidebar-social-item.active:focus {
   .sidebar-sticky {
     position: absolute;
     right:  1rem;
-    bottom: 1rem;
-    left:   1rem;
+    top: 4rem;
+    left:   1rem; 
   }
 }
 
